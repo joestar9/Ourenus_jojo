@@ -4,7 +4,7 @@
 
 ۱. **قالب رو با دستور زیر دانلود کنید**
    ```sh
-   sudo wget -N -P /var/lib/marzneshin/templates/subscription/ https://github.com/MatinDehghanian/Ourenus/releases/latest/download/index.html
+   sudo wget -N -P /var/lib/marzneshin/templates/subscription/ https://github.com/joestar9/Ourenus_jojo/releases/latest/download/index.html
    ```
 
 ۲. **دستورات زیر رو تو ترمینال سرورتون بزنید**
