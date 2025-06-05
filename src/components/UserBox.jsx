@@ -105,27 +105,22 @@ const UserBox = ({ data, subLink }) => {
             fontSize: "1.2rem",
           }}
         >
-          <Grid
-            container
-            flexWrap={"nowrap"}
-            paddingBottom={1}
-            alignItems={"baseline"}
-          >
+          <Grid container paddingBottom={1} alignItems={"baseline"}>
             <Grid
               item
               sx={{
                 color: theme.colors.BWColor[theme.palette.mode],
-                fontSize: "1.2rem",
+                fontSize: "medium",
                 paddingBottom: ".7rem",
                 paddingRight: ".4rem",
                 fontWeight: 500,
               }}
-              xs={12}
+              xs={8}
               textAlign={"start"}
             >
               {data?.username}
             </Grid>
-            <Grid>
+            <Grid item xs={4} textAlign={"end"}>
               <Button
                 onClick={handleQrModalOpen}
                 sx={{

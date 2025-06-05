@@ -179,7 +179,12 @@ const renderAppAccordion = (
         aria-controls={`panel-${app.name}-content`}
         id={`panel-${app.name}-header`}
       >
-        <Grid container alignItems="center" justifyContent="space-around">
+        <Grid
+          container
+          alignItems="center"
+          justifyContent="space-around"
+          gap={1}
+        >
           <Grid
             item
             xs={1}
